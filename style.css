@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+}
+a{
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    font-size:x-large;
+    text-decoration: none;
+    color: white;
+    border-width: 6px;
+    border-color: green;
+
+}
+a:visited {
+    color: rgb(255, 255, 255);
+    border-color: green;
+    border-width: 6px;
+  }
+  
+a:hover {
+    color:black;
+    background-color: white;
+    border:solid  3px green;
+ 
+  }
+  
+  
+a:active {
+    background-color: red;
+    color: rgb(255, 16, 24);
+    border-color: green;
+    border-width: 3px;
+  
+}
+ul{
+    padding-left: 25px;
+    background-color: yellow;
+    margin-left: 100px;
+    width: 300px;
+    height: 100px;
+    align-items: center;
+}
+ul li{
+    font-size: x-large;
+    text-align: left;
+    color:rgb(133, 29, 29);
+    list-style-type: square;
+    
+}
+li span{
+    color: black;
+ }
+ .back{
+    margin-top: 100px;
+    padding-left: 5%;
+ }
+ .back img{
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    height: 300px;
+
+ }
+ .back p{
+    padding-top: 100px;
+ }
+ .text{
+    padding-top: 200px;
+    padding-left: 5%;
+ }
+ .text h1,h2,p{
+    padding-top: 30px;
+ }
+ .text p span{
+    background-color: yellow;
+    border: solid 1px black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 3px;
+ }
+ .inblock{
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+ }
+ .inblock p{
+    display: flex;
+    
+    
+ }
+.inblock .block{
+    background-color: yellow;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 100px;
+    width: 100px;
+    border: solid 1px black ;
+}
+.b{
+    padding-top: 50px;
+    margin-left: 5%;
+
+
+}
+.b .h{
+    display: flex;
+    border: solid 1px black;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    margin-top: 6px;
+
+}
+.b h2{
+    padding-bottom: 30px;
+}
+
+p{
+    padding: 0;
+}
+
+
+
+
